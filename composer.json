@@ -1,0 +1,23 @@
+{
+  "name": "michaelbrooks/helloworld",
+  "description": "A simple package that returns Hello, World!",
+  "version": "1.0.0",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michael Brooks",
+      "email": "me@michaelbrooks.co.uk"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.3",
+    "phpunit/phpunit": "^9.5.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "MichaelBrooks\\HelloWorld\\": "src/"
+    }
+  }
+}
